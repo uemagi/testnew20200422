@@ -8,27 +8,7 @@
   </head>
   <body>
     <div class="container">
-      <li>
-        <%= link_to(@current_user.name, "/users/#{@current_user.id}") %>
-      </li>
-      <li>
-        <%= link_to("投稿一覧", "/posts/index") %>
-      </li>
-      <li>
-        <%= link_to("新規投稿", "/posts/new") %>
-      </li>
-      <li>
-        <%= link_to("ルーム一覧", "/users/index") %>
-      </li>
-      <li>
-      <%= link_to("チャット一覧","/posts/chatt") %>
-      </li>
-      <li>
-        <%= link_to("ログアウト", "/logout", {method: :post}) %>
-      </li>
-      <li>
-        <%= link_to("video", "https://immense-anchorage-70669.herokuapp.com") %>
-      </li>
+
       <h1 class="heading">bug bottle</h1>
       <p class="note">
         idを打ち込んでね！！
